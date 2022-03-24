@@ -1,0 +1,7 @@
+curl -X POST http://localhost:5000/empadd -u "user:user123" -H 'Content-Type: application/json' -d '{"name":"zas","birthdate":"10-10-2020","dept":"Sales","email":"zas@possimo.com","mobileno":"0123456789"}'
+
+curl -X POST http://localhost:5000/empget -u "user:user123" -H 'Content-Type: application/json' -d '{"email":"zas@possimo.com"}'
+
+curl -X POST http://localhost:5000/empupd -u "user:user123" -H 'Content-Type: application/json' -d '{"email":"zas@possimo.com","name":"zainalaman","dept":"Support","birthdate":"5-2-1980"}'
+
+curl -X POST http://localhost:5000/empdel -u "user:user123" -H 'Content-Type: application/json' -d '{"email":"zas@possimo.com"}'

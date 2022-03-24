@@ -1,0 +1,7 @@
+{
+  "Host"      : "localhost",
+  "Port"      : 3306,
+  "User"      : "dbuser",
+  "Password"  : "user2022",
+  "DbName"    : "golessons"
+}
